@@ -5,7 +5,7 @@ function Footer() {
   return (
     <View style={{marginTop:10,}}>
         <ImageBackground style={styles.map} source={require('../Assets/Images/mapImage.png')}/>
-        <View style={{position:'absolute', alignSelf:'center',marginTop:350}}>
+        <View style={{position:'absolute', alignSelf:'center',marginTop:250}}>
             <TouchableOpacity style={{
               width:343,
               height:43,

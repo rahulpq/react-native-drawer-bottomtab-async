@@ -4,7 +4,7 @@ import Banner from './Banner';
 import Header1 from './Header1';
 import { useNavigation } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-// import Login_page from './Login_page';
+
 
 const Home = () => {
   const [getValue, setGetValue] = useState('')
@@ -22,7 +22,9 @@ const Home = () => {
   );
 
   return (
+    
     <>
+   
       <View style={styles.header}>
         <View style={{flexDirection:'row',marginTop:40, padding:10}}>
 
@@ -44,7 +46,7 @@ const Home = () => {
           onPress={() => {
             navigation.navigate('HomeScreen')
           }}
-        ><Text style={{ backgroundColor: 'skyblue', fontSize: 25, fontWeight: '500', color: '#ffff', alignSelf: 'center', }}>click Me</Text></TouchableOpacity>
+          ><Text style={{ backgroundColor: 'skyblue', fontSize: 25, fontWeight: '500', color: '#ffff', alignSelf: 'center', }}>click Me</Text></TouchableOpacity>
       </View>
     </>
   )

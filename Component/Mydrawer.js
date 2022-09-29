@@ -14,9 +14,9 @@ const Mydrawer = () => {
   return (
     <Drawer.Navigator initialRouteName="Home">
     <Drawer.Screen name="Home" component={Tabone} options={{headerShown:false}}/>
-    <Drawer.Screen name="Rahul" component={Rahul} options={{headerShown:false}}/>
+    <Drawer.Screen name="Rahul" component={Rahul } options={{headerShown:false}}/>
     <Drawer.Screen name="About" component={About} options={{headerShown:false}}/>
-    {/* <Drawer.Screen name="Setting" component={Setting} options={{headerShown:false}}/> */}
+    <Drawer.Screen name="Setting" component={Setting} options={{headerShown:false}}/>
   </Drawer.Navigator>
   )
 }
